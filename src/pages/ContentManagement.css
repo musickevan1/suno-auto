@@ -1,0 +1,21 @@
+.content-management {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    .songs-list {
+      margin-top: 2rem;
+    }
+
+    .song-item {
+      background-color: var(--accent);
+      padding: 1rem;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+
+    .song-item h3 {
+      margin-top: 0;
+      color: var(--primary);
+    }

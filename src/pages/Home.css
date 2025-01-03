@@ -1,0 +1,29 @@
+.home {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .quick-actions {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .action-card {
+      background-color: var(--accent);
+      padding: 2rem;
+      border-radius: 8px;
+      text-decoration: none;
+      color: var(--text);
+      transition: transform 0.2s;
+    }
+
+    .action-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .action-card h2 {
+      margin-top: 0;
+      color: var(--primary);
+    }
